@@ -1,5 +1,6 @@
-var view = new vega.View(vega.parse(vegaJSONSpec))
-  .renderer('canvas')  // set renderer (canvas or svg)
-  .initialize('#view') // initialize view within parent DOM container
-  .hover()             // enable hover encode set processing
-  .run(); 
+var view = new vega.View(runtime)
+  .logLevel(vega.Warn) // set view logging level
+  .initialize(document.querySelector('#view')) // set parent DOM element
+  .renderer('canvas') // set render type (defaults to 'canvas')
+  .hover() // enable hover event processing
+  .run(); // update and render the view

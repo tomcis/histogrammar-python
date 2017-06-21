@@ -13,20 +13,21 @@ h = hg.Bin(num=20, low=0, high=1, quantity=lambda x: x, value=hg.Count())
 for d in data:
     h.fill(d)
 
-# histogrammar has kept track of these
+''''# histogrammar has kept track of these
 print ("NaN counter:       ", histogram.nanflow)
 print ("overflow counter:  ", histogram.overflow)
-print ("underflow counter: ", histogram.underflow)
+print ("underflow counter: ", histogram.underflow)'''
 
 
 
 
-test_file=open("test.json",'w')
+
+#test_file=open("test.json",'w+')
 
 #stores data in json format
-testdata = json.dumps(h.toJson(),indent=4)
+testdata = json.dumps(h.toJsonFile("test.json"))
 
 print(testdata)
 
-test_file.close()
+#test_file.close()
 

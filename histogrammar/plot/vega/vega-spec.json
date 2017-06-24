@@ -1,0 +1,18 @@
+//A basic outline of a vega specification
+
+{
+  "$schema": "https://vega.github.io/schema/vega/v3.0.json",
+  "description": "A specification outline example.",
+  "width": 500,
+  "height": 200,
+  "padding": 5,
+  "autosize": "pad",
+
+  "signals": [],
+  "data": [],
+  "scales": [],
+  "projections": [],
+  "axes": [],
+  "legends": [],
+  "marks": []
+}

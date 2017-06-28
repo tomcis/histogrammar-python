@@ -1,7 +1,5 @@
-//the comments mentioned in this file are for my personal reference since i'm new to jsonfragments of histogrammar, and won't be included in a regular json produced from any of the primitive
-
 {
-  "version": "1.0",   //histogrammar version
+  "version": "1.0",
   "data": {
     "underflow:type": "Count",
     "overflow:type": "Count",
@@ -30,7 +28,7 @@
       104.0,
       97.0
     ],
-    "entries": 2000.0, //sum of all the entries mentioned above 89.0+100.0+.....
+    "entries": 2000.0,
     "high": 1.0,
     "values:type": "Count",
     "overflow": 0.0,

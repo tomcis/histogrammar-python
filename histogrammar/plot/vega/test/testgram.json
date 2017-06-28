@@ -1,0 +1,16 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v3.0.json",
+  "description": "Histogram made of data from test.json",
+  "width": 500,
+  "height": 200,
+  "padding": 5,
+  "autosize": "pad",
+
+  "signals": [],
+  "data": [],
+  "scales": [],
+  "projections": [],
+  "axes": [],
+  "legends": [],
+  "marks": []
+}

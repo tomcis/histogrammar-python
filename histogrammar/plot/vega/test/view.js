@@ -1,4 +1,3 @@
-var runtime = vega.parse()
 var view = new vega.View(runtime)
   .logLevel(vega.Warn) // set view logging level
   .initialize(document.querySelector('#view')) // set parent DOM element

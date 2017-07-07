@@ -39,9 +39,7 @@ var obj={
 
 
 
-for(var i=0;i<obj.length;i++){
-
-    console.log(obj.data.values[i]);
-
+for(var data in obj)
+{
+  console.log(data.values);
 }
-

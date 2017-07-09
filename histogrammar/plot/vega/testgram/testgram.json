@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v3.0.json",
-  "description": "Histogram made of data from test.json",
+  "description": "1D Histogram made of data from test.json",
   "width": 500,
   "height": 200,
   "padding": 5,
@@ -31,14 +31,13 @@
       93.0,
       104.0,
       97.0
-    ]
+    ],
       "tranforms": [
         {
           "type":"bin",
           "field": data.values,
           "extent": [85,115],
           "nice": true,
-
         }
       ]
 

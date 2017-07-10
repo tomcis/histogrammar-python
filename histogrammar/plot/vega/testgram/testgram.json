@@ -7,43 +7,13 @@
   "autosize": "pad",
 
   "signals": [],
-  "data": [
+  "data": [],
+  "scales": [
     {
-      "name": "test",
-      "values":[
-      89.0,
-      100.0,
-      101.0,
-      95.0,
-      85.0,
-      111.0,
-      101.0,
-      104.0,
-      96.0,
-      105.0,
-      102.0,
-      96.0,
-      91.0,
-      111.0,
-      108.0,
-      100.0,
-      111.0,
-      93.0,
-      104.0,
-      97.0
-    ],
-      "tranforms": [
-        {
-          "type":"bin",
-          "field": data.values,
-          "extent": [85,115],
-          "nice": true,
-        }
-      ]
-
+      "name": "yscale"
+      "type": linear
     }
   ],
-  "scales": [],
   "projections": [],
   "axes": [],
   "legends": [],

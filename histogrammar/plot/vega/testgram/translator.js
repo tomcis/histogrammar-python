@@ -1,3 +1,5 @@
-$.getJSON("test.json", function(json) {
-    console.log(json); // this will show the info it in firebug console
+$.getJSON("https://raw.githubusercontent.com/histogrammar/histogrammar-python/vega/histogrammar/plot/vega/test/test.json", function(json) {
+
+  console.log(json);
 });
+

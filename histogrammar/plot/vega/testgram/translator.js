@@ -1,3 +1,6 @@
 //loading our json
-var requestURL = 'https://raw.githubusercontent.com/histogrammar/histogrammar-python/vega/histogrammar/plot/vega/test/test.json';
+var requestURL = 'vega/test/test.json';
 var request = new XMLHttpRequest();
+request.open('GET',requestURL);
+request.responseType = 'json';
+request.send()

@@ -10,8 +10,8 @@
   "data": [],
   "scales": [
     {
-      "name": "yscale"
-      "type": linear
+      "name": "yscale",
+      "type": "linear"
     }
   ],
   "projections": [],

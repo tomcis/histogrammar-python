@@ -10,8 +10,15 @@
   "data": [],
   "scales": [
     {
+      "name": "xscale",
+      "type": "linear",
+      "range": "width",
+      "domain": [85,115]
+    },
+    {
       "name": "yscale",
-      "type": "linear"
+      type: "linear",
+      range = "height", 
     }
   ],
   "projections": [],

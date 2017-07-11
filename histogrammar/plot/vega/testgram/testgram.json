@@ -17,8 +17,8 @@
     },
     {
       "name": "yscale",
-      type: "linear",
-      range = "height", 
+      "type": "linear",
+      "range": "height"
     }
   ],
   "projections": [],

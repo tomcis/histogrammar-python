@@ -2,7 +2,7 @@
 
 def app(environ, start_response):
     content = (open('testgram/testgram.html').read())
-    start_response('200 OK', [('Contetn-Type','text-html')])
+    start_response('200 OK', [('Content-Type','text-html')])
     return [content]
 
 

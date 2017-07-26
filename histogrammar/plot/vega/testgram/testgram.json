@@ -44,7 +44,7 @@
     {
       "name": "yscale",
       "type": "linear",
-      "range": "height"
+      "range": "height",
       "domain": {"data": "testgram"}
     }
   ],

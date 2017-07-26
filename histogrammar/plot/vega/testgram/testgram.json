@@ -53,8 +53,8 @@
   ],
 
     "axes": [
-    {"orient": "bottom", "scale": "xscale", "zindex": 1},
-    {"orient": "left", "scale": "yscale", "tickCount": 4, "zindex": 1}
+    {"orient": "bottom", "scale": "xscale" },
+    {"orient": "left", "scale": "yscale"}
   ],
   "projections": [],
   "legends": [],

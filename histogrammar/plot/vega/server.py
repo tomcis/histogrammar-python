@@ -1,19 +1,22 @@
 #Initializing server configurations
 
-thefile='testgram/testgram.html'
-def app(environ, start_response):
-    content = (open(thefile).read())
+testgram='testgram/testgram.html'
+
+def visualization(environ, start_response):
+    vis_content = (open(testgram).read())
     start_response('200 OK', [('Content-Type','text-html')])
-    return [content]
+    return [vis_content]
+
 
 
 #starts our wsgi server
 if __name__=='__main__':
     try:
         from wsgiref.simple_server import make_server
-        port=8888
-        httpd = make_server('0.0.0.0', port, app)
-        print("Serving at http://localhost:"+str(port)+"/"+thefile)
-        httpd.serve_forever()
+        vis_port=9000
+        vis_httpd = make_server('0.0.0.0', vis_port, visualization)
+        print("Serving youre chart at http://localhost:"+str(vis_port)+"/"+testgram)
+        vis_httpd.serve_forever()
     except KeyboardInterrupt:
         print('Goodbye!!')
+

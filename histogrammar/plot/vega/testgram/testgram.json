@@ -10,7 +10,8 @@
   "data": [
     {
       "name": "testgram",
-      "values": [
+      "values":
+      [
         89.0,
       100.0,
       101.0,
@@ -47,13 +48,15 @@
       "type": "linear",
       "range": "height"
 
+
     }
   ],
-  "projections": [],
+
     "axes": [
     {"orient": "bottom", "scale": "xscale", "zindex": 1},
     {"orient": "left", "scale": "yscale", "tickCount": 5, "zindex": 1}
   ],
+  "projections": [],
   "legends": [],
   "marks": []
 }

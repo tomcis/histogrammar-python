@@ -30,7 +30,8 @@
       111.0,
       93.0,
       104.0,
-      97.0],
+      97.0
+      ]
 
     }
   ],
@@ -44,8 +45,8 @@
     {
       "name": "yscale",
       "type": "linear",
-      "range": "height",
-      "domain": {"data": "testgram"}
+      "range": "height"
+
     }
   ],
   "projections": [],

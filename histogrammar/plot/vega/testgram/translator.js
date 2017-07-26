@@ -2,4 +2,3 @@ $.getJSON("https://raw.githubusercontent.com/histogrammar/histogrammar-python/ve
     console.log(json);
 
 });
-

@@ -1,6 +1,6 @@
 #Initializing server configurations
 
-testgram='testgram/testgram.html'
+testgram='testgram.html'
 
 def visualization(environ, start_response):
     vis_content = (open(testgram).read())
@@ -13,7 +13,7 @@ def visualization(environ, start_response):
 if __name__=='__main__':
     try:
         from wsgiref.simple_server import make_server
-        vis_port=9000
+        vis_port=8008
         vis_httpd = make_server('0.0.0.0', vis_port, visualization)
         print("Serving youre chart at http://localhost:"+str(vis_port)+"/"+testgram)
         vis_httpd.serve_forever()
